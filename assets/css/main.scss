@@ -39,3 +39,140 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://unpkg.com/@coreui/icons/css/brand.min.css');
+
+h1 {
+font-family: 'DM Serif Display';
+}
+  
+h1 > span {
+font-family: 'DM Serif Display';
+font-style: italic;
+color: rgb(164, 113, 4);
+}
+
+
+h3 {
+font-family: 'DM Serif Display';
+}
+
+h3 > span {
+font-family: 'DM Serif Display';
+font-style: italic;
+color: rgb(164, 113, 4);
+}
+
+p {
+text-align: justify;
+font-family: 'DM Sans';
+font-size: 11pt;
+}
+
+.nav-bar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-top: 20px;
+/* margin-bottom: 10px; */
+padding-bottom: 40px;
+
+font-size: medium;
+font-family: 'Helvetica Neue';
+font-weight: bold;
+}
+
+.nav-menu {
+display: flex;
+flex-direction: row;
+}
+
+.nav-menu > nav {
+margin-left: 50px;
+}
+
+.button {
+user-select: none;
+text-decoration: none;
+}
+
+.button-cv-wrap {
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-items: center;
+}
+
+.button-cv {
+width: 150px;
+height: 40px;
+
+display: flex;
+justify-content: center;
+justify-items: center;
+
+background: #EDBD41;
+border: 3px solid #efae0a;
+border-radius: 5px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-cv > a {
+margin: auto;
+font-family: sans-serif;
+color: #ffffff;
+font-weight: bold;
+}
+
+.home-button {
+height: 25px;
+}
+
+.home-button > a:hover {
+color: black;
+}
+
+.button:hover {
+/* font-style: italic; */
+cursor: pointer;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+text-decoration-color:rgb(255, 186, 36);
+}
+
+.button:active {
+background: rgb(255, 186, 36)
+}
+
+.link{
+color: rgb(164, 113, 4);
+font-weight: 350;
+}
+
+.link:hover {
+color: rgb(164, 113, 4);
+}
+
+.profile-img-container {
+align-self: center;
+margin-left: 0px;
+margin-right: 50px;
+display: block;
+}
+
+.img-mask {
+clip-path: circle(150px at 150px 150px);
+}
+
+.profile-wrapper {
+display: flex;
+flex-direction: row;
+}

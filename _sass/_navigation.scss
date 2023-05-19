@@ -177,6 +177,10 @@
   min-width: 250px;
   background: $background-color;
 
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+
   a {
     display: block;
     margin: 0 1rem;
@@ -222,6 +226,12 @@
         }
       }
     }
+
+    // &:first-child {
+    //   li:first-child {
+    //     font-weight: bold;
+    //   }
+    // }
 
     a {
       position: relative;
